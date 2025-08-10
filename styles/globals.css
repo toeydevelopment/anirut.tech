@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* Light mode background and text */
+  background-color: #F3F4F6; /* Tailwind gray-100 */
+  color: #1F2937;           /* Tailwind gray-800 */
+}
+
+.dark body {
+  /* Dark mode background and text */
+  background-color: #1F2937; /* Tailwind gray-800 */
+  color: #F3F4F6;           /* Tailwind gray-100 */
+}
